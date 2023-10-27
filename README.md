@@ -42,11 +42,11 @@ Se você estiver interessado em usar o servidor ou quiser discutir o projeto Ope
 
 - **Canal no YouTube**: [https://www.youtube.com/jwillians]
 
+# English
+
 # OpenDialUP
 
-Welcome to the OpenDialUP project, a pioneering initiative aimed at reviving the experience of Dial-Up Internet through VoIP technology. This project is led by Jorge Willians, an electronics and computer enthusiast in Brazil.
-
-# English
+Welcome to the OpenDialUP project, a initiative aimed at reviving the experience of Dial-Up Internet through VoIP technology. This project is led by Jorge Willians, an electronics and computer enthusiast in Brazil.
 
 ## Overview
 
