@@ -40,6 +40,8 @@ Para facilitar o teste e a experiência com o projeto OpenDialUP, disponibilizei
 - Desenvolver modems virtuais capazes de substituir modems reais via hardware e assim ter muitas conexões de entrada. E também poder ter um servidor único que faça a função do servidor VoIP e o servidor RAS simultâneamente.
 
 - Desenvolver um ATA de baixo custo para facilitar o acesso de todos.
+
+- Disponibilizar uma imagem usando Docker com o servidor VoIP pronto para uso.
  
 ## Contribuições
 
@@ -103,6 +105,8 @@ To facilitate testing and experiencing the OpenDialUP project, I have provided a
 - Develop virtual modems capable of replacing real modems through hardware, enabling multiple incoming connections. This would also allow a single server to perform the functions of the VoIP server and RAS server simultaneously.
 
 - Develop a low-cost ATA to make access more accessible to everyone.
+
+- Provide a ready-to-use Docker image with the VoIP server.
 
 ## Contributions
 
