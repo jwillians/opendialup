@@ -67,7 +67,7 @@ Agradecemos antecipadamente por suas contribuições!
 
 - **Tayro Borges**: Contribuiu com um número de telefone VoIP DDD 31 e tem realizado testes usando um ATA GrandStream HT813.
 
-- **Rodrigo Cambrussi @rcambrussi**: Contribuiu com testes relacionados ao uso direto com uma linha convencional.
+- **Rodrigo Cambrussi [@rcambrussi] (https://github.com/rcambrussi)**: Contribuiu com testes relacionados ao uso direto com uma linha convencional.
 
 E muitos outros membros da comunidade que estão colaborando para tornar o projeto "OpenDialUP" um sucesso. Agradecemos a todos por suas contribuições!
 
@@ -148,7 +148,7 @@ We appreciate your contributions in advance!
 
 - **Tayro Borges**: Contributed with a VoIP phone number (area code 31) and has been conducting tests using a GrandStream HT813 ATA.
 
-- **Rodrigo Cambrussi @rcambrussi**: Contributed with tests related to direct use with a conventional phone line.
+- **Rodrigo Cambrussi [@rcambrussi] (https://github.com/rcambrussi)**: Contributed with tests related to direct use with a conventional phone line.
 
 And many other community members who are collaborating to make the "OpenDialUP" project a success. We appreciate everyone for their contributions!
 
