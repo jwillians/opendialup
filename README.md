@@ -59,7 +59,7 @@ Agradecemos antecipadamente por suas contribuições!
 
 Se você estiver interessado em usar o servidor ou quiser discutir o projeto OpenDialUP, você pode se juntar ao nosso grupo no Discord:
 
-- **Grupo no Discord**: [https://discord.gg/UZ9FKPjt]
+- **Grupo no Discord**: [https://dub.sh/XQtfC5j]
 
 - **Canal no YouTube**: [https://www.youtube.com/jwillians]
 
@@ -124,7 +124,7 @@ We appreciate your contributions in advance!
 
 If you are interested in using the server or want to discuss the OpenDialUP project, you can join our Discord group:
 
-- **Discord Group**: [https://discord.gg/UZ9FKPjt]
+- **Discord Group**: [https://dub.sh/XQtfC5j]
 
 - **YouTube Channel**: [https://www.youtube.com/jwillians]
 
