@@ -22,14 +22,18 @@ Os principais objetivos do projeto "OpenDialUP" incluem:
 
 O projeto "OpenDialUP" conta hoje com uma estrutura simples que consiste em:
 
-- **1 Servidor VoiP rodando Ubuntu Server 23.10 com Asterisk 20.4.0 + FreePBX 16.0.40.4**
+- **1 Servidor VoiP rodando FreePBX Distro com Asterisk 19.8.0 + FreePBX 16.0.40.7**
 O Objetivo desse servidor é ser como uma "central telefônica", ele que é responsável por receber as chamadas dos clientes e redirecionar para o modem correto.
 
 - **1 Servidor RAS rodando Windows Server 2003 com 2 Modems**
 O Objetivo desse servidor é receber a conexão proveniente do servidor Voip e fornecer internet para o cliente através de um dos modems disponíveis atualmente.
 
-- **ATA Linksys PAP2t**
+- **ATA Linksys PAP2T**
 Para fazer a ponte entre os modems e o servidor VoIP é usado um clássico ATA da Linksys PAP2T.
+
+- **Numero de entrada DDD (15) 3199-7790**
+
+- **Numero de entrada DDD (31) 2012-0564**
 
 ## Como se conectar?
 
@@ -45,7 +49,7 @@ Para facilitar o teste e a experiência com o projeto OpenDialUP, disponibilizei
  
 ## Contribuições
 
-Estamos entusiasmados com contribuições de toda a comunidade. Se deseja contribuir com o projeto "OpenDialUP", siga estas etapas:
+Estamos entusiasmados com contribuições de toda a comunidade. Se deseja contribuir com o projeto "OpenDialUP" no GitHub, siga estas etapas:
 
 1. [Crie um fork](https://docs.github.com/pt/get-started/quickstart/fork-a-repo) do repositório.
 2. Clone o seu fork para a sua máquina local.
@@ -53,7 +57,19 @@ Estamos entusiasmados com contribuições de toda a comunidade. Se deseja contri
 4. Faça as alterações necessárias e commit.
 5. [Envie um pull request](https://docs.github.com/pt/get-started/quickstart/using-forks) para o repositório principal.
 
+Se deseja contribuir com testes, com seu conhecimento etc entre no servidor do Discord: [https://dub.sh/XQtfC5j]
+
 Agradecemos antecipadamente por suas contribuições!
+
+## Quem esta contribuindo?
+
+- **Renâ Augusto**: Contribuiu com testes relacionados à ONT Huawei EG8145V5 e tem desempenhado um papel importante na moderação e organização do servidor do Discord.
+
+- **Tayro Borges**: Contribuiu com um número de telefone VoIP DDD 31 e tem realizado testes usando um ATA GrandStream HT813.
+
+- **Rodrigo Cambrussi @rcambrussi**: Contribuiu com testes relacionados ao uso direto com uma linha convencional.
+
+E muitos outros membros da comunidade que estão colaborando para tornar o projeto "OpenDialUP" um sucesso. Agradecemos a todos por suas contribuições!
 
 ## Contato e Discussão
 
@@ -85,16 +101,20 @@ The main goals of the "OpenDialUP" project include:
 
 ## Current Structure
 
-The "OpenDialUP" project currently consists of a simple structure that includes:
+The "OpenDialUP" project currently has a simple setup consisting of:
 
-- **1 VoIP Server running Ubuntu Server 23.10 with Asterisk 20.4.0 + FreePBX 16.0.40.4**
-The purpose of this server is to act as a "telephone exchange." It is responsible for receiving calls from clients and redirecting them to the correct modem.
+- **1 VoIP Server running FreePBX Distro with Asterisk 19.8.0 + FreePBX 16.0.40.7**
+The purpose of this server is to act as a "phone exchange," responsible for receiving customer calls and redirecting them to the correct modem.
 
 - **1 RAS Server running Windows Server 2003 with 2 Modems**
-The purpose of this server is to receive the connection from the VoIP server and provide internet access to the client through one of the currently available modems.
+The purpose of this server is to receive the connection from the VoIP server and provide internet access to the customer using one of the currently available modems.
 
-- **Linksys PAP2t ATA**
-To bridge between the modems and the VoIP server, a classic Linksys PAP2T ATA is used.
+- **Linksys PAP2T ATA**
+A classic Linksys PAP2T ATA is used to bridge the modems and the VoIP server.
+
+- **Entry Number Area Code (15) 3199-7790**
+
+- **Entry Number Area Code (31) 2012-0564**
 
 ## How to Connect?
 
@@ -110,15 +130,27 @@ To facilitate testing and experiencing the OpenDialUP project, I have provided a
 
 ## Contributions
 
-We are excited about contributions from the entire community. If you want to contribute to the "OpenDialUP" project, follow these steps:
+We are excited about contributions from the entire community. If you want to contribute to the "OpenDialUP" project on GitHub, follow these steps:
 
-1. [Create a fork](https://docs.github.com/get-started/quickstart/fork-a-repo) of the repository.
+1. [Create a fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of the repository.
 2. Clone your fork to your local machine.
 3. Create a new branch for your contribution.
 4. Make the necessary changes and commit.
-5. [Submit a pull request](https://docs.github.com/get-started/quickstart/using-forks) to the main repository.
+5. [Submit a pull request](https://docs.github.com/en/get-started/quickstart/using-forks) to the main repository.
+
+If you want to contribute with testing, your expertise, and more, join our Discord server: [https://dub.sh/XQtfC5j]
 
 We appreciate your contributions in advance!
+
+## Who's Contributing?
+
+- **Renâ Augusto**: Contributed with tests related to the Huawei EG8145V5 ONT and has played an important role in moderating and organizing the Discord server.
+
+- **Tayro Borges**: Contributed with a VoIP phone number (area code 31) and has been conducting tests using a GrandStream HT813 ATA.
+
+- **Rodrigo Cambrussi @rcambrussi**: Contributed with tests related to direct use with a conventional phone line.
+
+And many other community members who are collaborating to make the "OpenDialUP" project a success. We appreciate everyone for their contributions!
 
 ## Contact and Discussion
 
