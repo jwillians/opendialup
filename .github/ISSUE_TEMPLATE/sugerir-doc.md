@@ -1,8 +1,8 @@
 ---
-name: Tem uma ideia para a documentação?
-about: Sugerir uma ideia de documentação para este projeto.
+name: Sugerir Documentação
+about: Compartilhe sugestões para melhorar a documentação deste projeto.
 title: ''
-labels: documentation
+labels: documentação / documentation
 assignees: jwillians
 
 ---
@@ -11,6 +11,7 @@ assignees: jwillians
 
 **Descrição da Ideia de Documentação:**
 _Descreva claramente a ideia de documentação que você gostaria de sugerir._
+_Exemplo: Preciso da documentação da Huawei EG814V5_
 
 **Motivação:**
 _Explique por que você acredita que esta ideia de documentação é importante para o projeto._

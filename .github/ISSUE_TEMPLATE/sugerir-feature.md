@@ -2,7 +2,7 @@
 name: Sugerir uma Funcionalidade
 about: Sugira uma nova funcionalidade para este projeto.
 title: ''
-labels: enhancement
+labels: melhoria / enhancement
 assignees: jwillians
 
 ---
@@ -11,6 +11,7 @@ assignees: jwillians
 
 **Descrição da Funcionalidade:**
 _Descreva a funcionalidade que você gostaria de sugerir de forma clara e concisa._
+_Exemplo: Seria interessante ter um discador próprio do projeto OpenDialUP_
 
 **Motivação:**
 _Explique por que você acredita que esta funcionalidade é importante para o projeto._
