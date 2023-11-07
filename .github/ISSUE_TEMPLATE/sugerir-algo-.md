@@ -1,5 +1,5 @@
 ---
-name: Sugerir algo.
+name: Tem uma ideia?
 about: Sugerir uma ideia para esse projeto.
 title: ''
 labels: enhancement
