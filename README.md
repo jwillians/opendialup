@@ -72,7 +72,7 @@ Agradecemos antecipadamente por suas contribuições!
 
 ## Quem está contribuindo?
 
-- **Renâ Augusto**: Contribuiu com testes relacionados à ONT Huawei EG8145V5 e tem desempenhado um papel importante na moderação e organização do servidor do Discord.
+- **Renâ Augusto [@RenaAPMartins](https://github.com/RenaAPMartins)**: Contribuiu com testes relacionados à ONT Huawei EG8145V5 e tem desempenhado um papel importante na moderação e organização do servidor do Discord.
 
 - **Tayro Borges**: Contribuiu com um número de telefone VoIP DDD 31 e tem realizado testes usando um ATA GrandStream HT813.
 
@@ -164,7 +164,7 @@ We appreciate your contributions in advance!
 
 ## Contributors:
 
-- **Renâ Augusto**: Contributed with tests related to the ONT Huawei EG8145V5 and has played an important role in moderating and organizing the Discord server.
+- **Renâ Augusto [@RenaAPMartins](https://github.com/RenaAPMartins)**: Contributed with tests related to the ONT Huawei EG8145V5 and has played an important role in moderating and organizing the Discord server.
 
 - **Tayro Borges**:  Contributed with a VoIP phone number (area code 31) and has been conducting tests using a GrandStream HT813 ATA.
 
