@@ -70,15 +70,15 @@ Se deseja contribuir com testes, com seu conhecimento etc entre no servidor do D
 
 Agradecemos antecipadamente por suas contribuições!
 
-## Quem esta contribuindo?
+## Quem está contribuindo?
 
 - **Renâ Augusto**: Contribuiu com testes relacionados à ONT Huawei EG8145V5 e tem desempenhado um papel importante na moderação e organização do servidor do Discord.
 
 - **Tayro Borges**: Contribuiu com um número de telefone VoIP DDD 31 e tem realizado testes usando um ATA GrandStream HT813.
 
-- **Rodrigo Cambrussi [@rcambrussi] (https://github.com/rcambrussi)**: Contribuiu com testes relacionados ao uso direto com uma linha convencional.
+- **Rodrigo Cambrussi [@rcambrussi](https://github.com/rcambrussi)**: Contribuiu com testes relacionados ao uso direto com uma linha convencional.
 
-- **Caio Fernando [@Marmelucos] (https://github.com/Marmelucos)**: Contribuiu com testes relacionados ao ATA PAP2T.
+- **Caio Fernando [@Marmelucos](https://github.com/Marmelucos)**: Contribuiu com testes relacionados ao ATA PAP2T.
 
 E muitos outros membros da comunidade que estão colaborando para tornar o projeto "OpenDialUP" um sucesso. Agradecemos a todos por suas contribuições!
 
@@ -162,15 +162,15 @@ If you want to contribute with testing, your expertise, and more, join our Disco
 
 We appreciate your contributions in advance!
 
-## Quem esta contribuindo?
+## Contributors:
 
-- **Renâ Augusto**: Contribuiu com testes relacionados à ONT Huawei EG8145V5 e tem desempenhado um papel importante na moderação e organização do servidor do Discord.
+- **Renâ Augusto**: Contributed with tests related to the ONT Huawei EG8145V5 and has played an important role in moderating and organizing the Discord server.
 
-- **Tayro Borges**: Contribuiu com um número de telefone VoIP DDD 31 e tem realizado testes usando um ATA GrandStream HT813.
+- **Tayro Borges**:  Contributed with a VoIP phone number (area code 31) and has been conducting tests using a GrandStream HT813 ATA.
 
-- **Rodrigo Cambrussi [@rcambrussi] (https://github.com/rcambrussi)**: Contribuiu com testes relacionados ao uso direto com uma linha convencional.
+- **Rodrigo Cambrussi [@rcambrussi](https://github.com/rcambrussi)**:  Contributed with tests related to direct use with a conventional phone line.
 
-- **Caio Fernando [@Marmelucos] (https://github.com/Marmelucos)**: Contribuiu com testes relacionados ao ATA PAP2T.
+- **Caio Fernando [@Marmelucos](https://github.com/Marmelucos)**: Contributed with tests related to the PAP2T ATA.
 
 And many other community members who are collaborating to make the "OpenDialUP" project a success. We appreciate everyone for their contributions!
 
