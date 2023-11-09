@@ -18,22 +18,31 @@ Os principais objetivos do projeto "OpenDialUP" incluem:
 
 - **Conexão Direta e Simplificada**: O projeto "OpenDialUP" tem como objetivo oferecer uma solução de conexão direta e simplificada à Internet Discada, sem a necessidade de uma "ponte" intermediária como o Raspberry Pi. Isso envolve a possibilidade de conexão direta a partir de uma ONT do próprio provedor de internet ou usando um ATA PAP2T da Linksys, tornando a experiência de Internet Discada mais acessível e conveniente, para diversos dispositivos antigos que usam modems, como computadores e videogames.
 
-## Estrutrura atual:
+## Estrutura Atual
 
-O projeto "OpenDialUP" conta hoje com uma estrutura simples que consiste em:
+O projeto "OpenDialUP" conta atualmente com a seguinte estrutura:
 
-- **1 Servidor VoiP rodando FreePBX Distro com Asterisk 19.8.0 + FreePBX 16.0.40.7**
-O Objetivo desse servidor é ser como uma "central telefônica", ele que é responsável por receber as chamadas dos clientes e redirecionar para o modem correto.
+### Servidor VoIP
+- **Sistema Operacional**: Ubuntu Server 22.04.3
+- **Software**: Asterisk 18.10.0
+- **Descrição**: Este servidor atua como uma "central telefônica," responsável por receber chamadas dos clientes e direcioná-las para o modem correto.
 
-- **1 Servidor RAS rodando Windows Server 2003 com 2 Modems**
-O Objetivo desse servidor é receber a conexão proveniente do servidor Voip e fornecer internet para o cliente através de um dos modems disponíveis atualmente.
+### Servidor Proxy
+- **Sistema Operacional**: Ubuntu Server 22.04.3
+- **Software**: WebOne
+- **Descrição**: Este servidor funciona como uma ponte entre a internet atual e softwares antigos, como navegadores incompatíveis com protocolos modernos. O WebOne ajuda a minimizar erros. Link do projeto WebOne: [WebOne GitHub](https://github.com/atauenis/webone)
 
-- **ATA Linksys PAP2T**
-Para fazer a ponte entre os modems e o servidor VoIP é usado um clássico ATA da Linksys PAP2T.
+### Servidor RAS
+- **Sistema Operacional**: Windows Server 2003
+- **Modems**: Motorola SM56, SmartLink SL2800
+- **Descrição**: Este servidor recebe a conexão do servidor VoIP e fornece internet aos clientes através dos modems disponíveis.
 
-- **Numero de entrada DDD (15) 3199-7790**
+### ATA Linksys PAP2T
+- **Descrição**: Um clássico ATA da Linksys PAP2T é utilizado para fazer a ponte entre os modems e o servidor VoIP.
 
-- **Numero de entrada DDD (31) 2012-0564**
+### Números de Entrada
+- DDD (15) 3199-7790
+- DDD (31) 2012-0564
 
 ## Como se conectar?
 
@@ -69,6 +78,8 @@ Agradecemos antecipadamente por suas contribuições!
 
 - **Rodrigo Cambrussi [@rcambrussi] (https://github.com/rcambrussi)**: Contribuiu com testes relacionados ao uso direto com uma linha convencional.
 
+- **Caio Fernando [@Marmelucos] (https://github.com/Marmelucos)**: Contribuiu com testes relacionados ao ATA PAP2T.
+
 E muitos outros membros da comunidade que estão colaborando para tornar o projeto "OpenDialUP" um sucesso. Agradecemos a todos por suas contribuições!
 
 ## Contato e Discussão
@@ -101,20 +112,29 @@ The main goals of the "OpenDialUP" project include:
 
 ## Current Structure
 
-The "OpenDialUP" project currently has a simple setup consisting of:
+The "OpenDialUP" project currently has the following structure:
 
-- **1 VoIP Server running FreePBX Distro with Asterisk 19.8.0 + FreePBX 16.0.40.7**
-The purpose of this server is to act as a "phone exchange," responsible for receiving customer calls and redirecting them to the correct modem.
+### VoIP Server
+- **Operating System**: Ubuntu Server 22.04.3
+- **Software**: Asterisk 18.10.0
+- **Description**: This server acts as a "phone exchange," responsible for receiving calls from clients and directing them to the correct modem.
 
-- **1 RAS Server running Windows Server 2003 with 2 Modems**
-The purpose of this server is to receive the connection from the VoIP server and provide internet access to the customer using one of the currently available modems.
+### Proxy Server
+- **Operating System**: Ubuntu Server 22.04.3
+- **Software**: WebOne
+- **Description**: This server serves as a bridge between the current internet and old software, such as browsers incompatible with modern protocols. WebOne helps minimize errors. Link to the WebOne project: [WebOne GitHub](https://github.com/atauenis/webone)
 
-- **Linksys PAP2T ATA**
-A classic Linksys PAP2T ATA is used to bridge the modems and the VoIP server.
+### RAS Server
+- **Operating System**: Windows Server 2003
+- **Modems**: Motorola SM56, SmartLink SL2800
+- **Description**: This server receives the connection from the VoIP server and provides internet to clients through the available modems.
 
-- **Entry Number Area Code (15) 3199-7790**
+### Linksys PAP2T ATA
+- **Description**: A classic Linksys PAP2T ATA is used to bridge the modems and the VoIP server.
 
-- **Entry Number Area Code (31) 2012-0564**
+### Entry Numbers
+- Area Code (15) 3199-7790
+- Area Code (31) 2012-0564
 
 ## How to Connect?
 
@@ -142,13 +162,15 @@ If you want to contribute with testing, your expertise, and more, join our Disco
 
 We appreciate your contributions in advance!
 
-## Who's Contributing?
+## Quem esta contribuindo?
 
-- **Renâ Augusto**: Contributed with tests related to the Huawei EG8145V5 ONT and has played an important role in moderating and organizing the Discord server.
+- **Renâ Augusto**: Contribuiu com testes relacionados à ONT Huawei EG8145V5 e tem desempenhado um papel importante na moderação e organização do servidor do Discord.
 
-- **Tayro Borges**: Contributed with a VoIP phone number (area code 31) and has been conducting tests using a GrandStream HT813 ATA.
+- **Tayro Borges**: Contribuiu com um número de telefone VoIP DDD 31 e tem realizado testes usando um ATA GrandStream HT813.
 
-- **Rodrigo Cambrussi [@rcambrussi] (https://github.com/rcambrussi)**: Contributed with tests related to direct use with a conventional phone line.
+- **Rodrigo Cambrussi [@rcambrussi] (https://github.com/rcambrussi)**: Contribuiu com testes relacionados ao uso direto com uma linha convencional.
+
+- **Caio Fernando [@Marmelucos] (https://github.com/Marmelucos)**: Contribuiu com testes relacionados ao ATA PAP2T.
 
 And many other community members who are collaborating to make the "OpenDialUP" project a success. We appreciate everyone for their contributions!
 
