@@ -29,17 +29,10 @@ FAIL2BAN_ENABLED=false
 sudo docker-compose up -d
 ```
 
-# Configurações necessárias: 
+# Configurações necessárias em Asterisk Sip Settings: 
 
 - Esperar uns minutos até o servidor funcionar.
-
-
-# Asterisk Sip Settings
-
 - NAT Settings / Detect Network Settings
-
-# Codecs:
-
 - Deixar apenas o Codec ulaw
 
 # Executar Bash do IZPBX:
