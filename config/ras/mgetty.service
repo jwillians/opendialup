@@ -1,0 +1,14 @@
+[Unit]
+Description=Modem USB         
+Documentation=man:mgetty(8)
+Requires=systemd-udev-settle.service
+After=systemd-udev-settle.service
+
+[Service]
+Type=simple
+ExecStart=/sbin/mgetty -x 0 /dev/ttyACM0
+Restart=always
+PIDFile=/var/run/mgetty.pid.ttyACM0
+
+[Install]
+WantedBy=multi-user.target

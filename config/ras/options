@@ -1,0 +1,12 @@
+ms-dns 8.8.8.8
+asyncmap 0
+auth
+crtscts
+lock
+show-password
++pap
+debug
+lcp-echo-interval 30
+lcp-echo-failure 4
+proxyarp
+noipx
