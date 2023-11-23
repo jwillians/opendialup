@@ -33,8 +33,8 @@ O projeto "OpenDialUP" conta atualmente com a seguinte estrutura:
 - **Descrição**: Este servidor funciona como uma ponte entre a internet atual e softwares antigos, como navegadores incompatíveis com protocolos modernos. O WebOne ajuda a minimizar erros. Link do projeto WebOne: [WebOne GitHub](https://github.com/atauenis/webone)
 
 ### Servidor RAS
-- **Sistema Operacional**: Windows Server 2003
-- **Modems**: Motorola SM56, SmartLink SL2800
+- **Sistema Operacional**: Ubuntu Server 22.04.3
+- **Modems**: Trendnet TFM-561U
 - **Descrição**: Este servidor recebe a conexão do servidor VoIP e fornece internet aos clientes através dos modems disponíveis.
 
 ### ATA Linksys PAP2T
@@ -125,8 +125,8 @@ The "OpenDialUP" project currently has the following structure:
 - **Description**: This server serves as a bridge between the current internet and old software, such as browsers incompatible with modern protocols. WebOne helps minimize errors. Link to the WebOne project: [WebOne GitHub](https://github.com/atauenis/webone)
 
 ### RAS Server
-- **Operating System**: Windows Server 2003
-- **Modems**: Motorola SM56, SmartLink SL2800
+- **Operating System**: Ubuntu Server 22.04.3
+- **Modems**: Trendnet TFM-561U
 - **Description**: This server receives the connection from the VoIP server and provides internet to clients through the available modems.
 
 ### Linksys PAP2T ATA
