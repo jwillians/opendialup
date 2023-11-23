@@ -69,7 +69,7 @@ noload => chan_sip.so
 
 - Fazer backup do arquivo original
 ```shell
-sudo mv /etc/asterisk/pjsip.conf /etc/asterisk/pjsip.confORIGINAL/
+sudo mv /etc/asterisk/pjsip.conf /etc/asterisk/pjsip.confORIGINAL
 ```
 
 - Abrir o editor com o arquivo pjsip.conf
@@ -205,7 +205,7 @@ nano ~/.bashrc
 ```
 - Inserir no final do arquivo .bashrc
 ```shell
-alias listarserial="ls -l /sys/class/tty/*/device/driver | grep -v \"platform/drivers/serial8250\" | awk '{print \$9}' | awk -F'/' '{print \"/dev/\" \$5}'
+alias listarserial="ls -l /sys/class/tty/*/device/driver | grep -v \"platform/drivers/serial8250\" | awk '{print \$9}' | awk -F'/' '{print \"/dev/\" \$5}'"
 ```
 - Recarregar o arquivo .bashrc
 ```shell
