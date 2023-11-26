@@ -1,5 +1,8 @@
 # OpenDialUP
 
+[Português](#versão-em-português) | [English](#english-version)
+
+## Versão em Português
 Bem-vindo ao projeto OpenDialUP, uma iniciativa que visa resgatar a experiência da Internet Discada por meio da tecnologia VoIP. Este projeto é liderado por Jorge Willians, um entusiasta de eletrônica e informática no Brasil.
 
 ## Visão Geral
@@ -90,7 +93,7 @@ Se você estiver interessado em usar o servidor ou quiser discutir o projeto Ope
 
 - **Canal no YouTube**: [https://www.youtube.com/jwillians]
 
-# English
+## English Version
 
 # OpenDialUP
 
