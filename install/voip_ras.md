@@ -254,7 +254,7 @@ sudo mv /etc/mgetty/mgetty.config /etc/mgetty/mgetty.configORIGINAL
 
 - Abrir o editor com o arquivo mgetty.config
 ```shell
-sudo nano /etc/asterisk/mgetty.config
+sudo nano /etc/mgetty/mgetty.config
 ```
 - Configuração do arquivo mgetty.config
 ```shell
